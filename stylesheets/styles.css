@@ -106,7 +106,7 @@ img {
 }
 
 header {
-  width:30%;
+  width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -172,9 +172,9 @@ header ul a strong {
 }
 
 section {
-  width: 700px;
-  float: right;
-  padding-bottom: 50px;
+  width:500px;
+  float:right;
+  padding-bottom:50px;
 }
 
 small {
@@ -216,8 +216,8 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px;
-    margin:0;
+    padding:20px 0;
+    margin:0 0 20px;
   }
 
   header a small {
