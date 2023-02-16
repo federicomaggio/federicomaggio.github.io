@@ -30,11 +30,15 @@ h2 {
   font-weight: 500;
 }
 
-h3, h4, h5, h6 {
+h3 {
   color:#494949;
   font-weight: 500;
 }
 
+h4, h5, h6 {
+  color:#494949;
+  font-weight: 400;
+}
 a {
   color:#39c;
   text-decoration:none;
