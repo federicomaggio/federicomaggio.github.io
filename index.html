@@ -15,40 +15,32 @@
     <title>Federico Maggio</title>
 	  <style>
       /* CSS per la barra di navigazione */
-      nav {
-        background-color: #333;
-        overflow: hidden;
-      }
-      
       nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-align: center;
-      }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
 
-      nav li {
-        display: inline-block;
-        margin-right: 20px;
-      }
+nav li {
+  display: inline-block;
+  width: 33.33%; /* impostiamo una larghezza fissa del 33.33% per ciascun elemento li */
+}
 
-      nav li:last-child {
-        margin-right: 0;
-      }
+nav a {
+  display: block;
+  color: #0000ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
 
-      nav a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 16px;
-      }
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-      nav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
     </style>
 	<script src="scramble.js"></script>
     
