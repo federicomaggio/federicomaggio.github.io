@@ -24,7 +24,7 @@
 .highlight .kn { font-weight: bold } /* Keyword.Namespace */
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .kt { color: #B22222; font-weight: bold } /* Keyword.Type */
 .highlight .m { color: #009999 } /* Literal.Number */
 .highlight .s { color: #d14 } /* Literal.String */
 .highlight .na { color: #008080 } /* Name.Attribute */
