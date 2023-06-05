@@ -40,23 +40,23 @@ h4, h5, h6 {
   font-weight: 400;
 }
 a {
-  color:#39c;
+  color:#B22222;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#8B0000;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#B22222;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#8B0000;
 }
 
 .wrapper {
