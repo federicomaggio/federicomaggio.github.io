@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Federico Maggio</title>
-	  
+	
 	<script src="scramble.js"></script>
     
 	<link rel="shortcut icon" type="image/x-icon" href="icons/unibo.svg">
@@ -31,6 +31,24 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+	  <style>
+        details summary {
+            list-style-type: none; /* Rimuove il simbolo predefinito */
+        }
+        
+        details summary::-webkit-details-marker {
+            display: none; /* Nasconde il simbolo predefinito nei browser WebKit (Chrome, Safari) */
+        }
+        
+        details summary::before {
+            content: '•'; /* Utilizza il simbolo del pallino */
+            color: black; /* Cambia il colore del pallino */
+            display: inline-block;
+            width: 1em; /* Spazio tra il pallino e il testo */
+            margin-left: -1em;
+        }
+    </style>
   </head>
   <body>
 	
