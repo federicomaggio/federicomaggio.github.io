@@ -13,7 +13,7 @@ h1, h3, h4, h5, h6 {
 }
 
 h2 {
-  color:#B22222;
+  color:#007be4;
   margin:0 0 20px;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  color:#B22222;
+  color:#007be4;
   font-weight: 500;
 }
 
@@ -51,7 +51,7 @@ h5 {
 }
 
 a {
-  color:#B22222;
+  color:#007be4;
   text-decoration:none;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#B22222;
+  color:#007be4;
   margin-top:-0.3em;
   display:block;
 }
