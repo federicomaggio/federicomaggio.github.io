@@ -478,6 +478,12 @@ h4 {
   border-bottom: 1px solid rgba(16, 36, 55, 0.14);
 }
 
+.research-card h4 {
+  max-width: none;
+  font-size: clamp(1.25rem, 1.8vw, 1.6rem);
+  line-height: 1.2;
+}
+
 .research-meta {
   margin-bottom: 14px;
 }
