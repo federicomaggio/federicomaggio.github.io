@@ -781,6 +781,11 @@ address {
     padding: 20px 0 44px;
   }
 
+  .hero .portrait-wrap {
+    order: -1;
+    width: min(76%, 340px);
+  }
+
   .hero::before {
     width: 380px;
     height: 380px;
