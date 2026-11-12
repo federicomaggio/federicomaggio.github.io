@@ -381,9 +381,9 @@ h4 {
 
 .portrait {
   width: 100%;
+  height: auto;
   border-radius: 4px;
   box-shadow: var(--shadow);
-  object-fit: contain;
 }
 
 .section {
@@ -668,7 +668,11 @@ address {
   }
 
   .hero-grid {
-    gap: 72px;
+    gap: 36px;
+  }
+
+  .hero {
+    padding-bottom: 52px;
   }
 
   .portrait-wrap {
@@ -763,7 +767,7 @@ address {
   }
 
   .hero {
-    padding-top: 72px;
+    padding: 72px 0 44px;
   }
 
   .hero::before {
