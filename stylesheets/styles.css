@@ -83,9 +83,9 @@ h4 {
 }
 
 h1 {
-  max-width: 10ch;
+  max-width: none;
   margin-bottom: 24px;
-  font-size: clamp(3rem, 5.8vw, 5.4rem);
+  font-size: clamp(3rem, 5vw, 4.8rem);
   letter-spacing: -0.055em;
 }
 
@@ -231,7 +231,7 @@ h4 {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: clamp(32px, 5vw, 64px) 0 clamp(90px, 12vw, 160px);
+  padding: clamp(32px, 5vw, 64px) 0 clamp(64px, 7vw, 96px);
 }
 
 .hero::before {
@@ -453,8 +453,9 @@ h4 {
 }
 
 .section-heading h2 {
-  max-width: 14ch;
+  max-width: none;
   margin-bottom: 0;
+  font-size: clamp(1.75rem, 3.2vw, 3rem);
 }
 
 .section-heading > p {
@@ -605,52 +606,42 @@ details > p {
 }
 
 .contact-section {
-  padding: 0 0 clamp(84px, 11vw, 140px);
+  padding: 0 0 clamp(64px, 8vw, 96px);
 }
 
 .contact-card {
   display: grid;
-  align-items: center;
-  gap: 48px;
-  padding: clamp(38px, 6vw, 72px);
-  border-radius: var(--radius);
-  background: var(--ink);
-  color: #d7e4e5;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: start;
+  gap: 40px;
+  padding-block: clamp(36px, 5vw, 56px);
+  border-block: 1px solid var(--line);
+  grid-template-columns: minmax(180px, 0.6fr) minmax(0, 1.4fr);
 }
 
 .contact-card h2 {
-  margin-bottom: 18px;
-  color: #fff;
-}
-
-.contact-card p {
-  max-width: 560px;
-}
-
-.contact-card .section-kicker {
-  color: #85c9c8;
+  margin-bottom: 0;
+  font-size: clamp(1.75rem, 2.6vw, 2.4rem);
 }
 
 .contact-details {
-  padding-left: 34px;
-  border-left: 1px solid rgba(255, 255, 255, 0.22);
+  display: grid;
+  gap: 8px;
 }
 
 .contact-email {
   display: inline-block;
-  margin-bottom: 20px;
-  color: #fff;
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  width: fit-content;
+  color: var(--brand-dark);
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
   font-weight: 800;
 }
 
 .contact-email:hover {
-  color: #f0a383;
+  color: var(--accent);
 }
 
 address {
-  color: #b8c9cb;
+  color: var(--ink-soft);
   font-style: normal;
 }
 
@@ -710,9 +701,8 @@ address {
   }
 
   .contact-details {
-    padding: 30px 0 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.22);
-    border-left: 0;
+    padding: 0;
+    border: 0;
   }
 }
 
@@ -798,15 +788,11 @@ address {
   }
 
   h1 {
-    font-size: clamp(2.8rem, 13vw, 4.1rem);
+    font-size: clamp(2.55rem, 11vw, 3.45rem);
   }
 
   details > p {
     padding: 18px;
-  }
-
-  .contact-card {
-    width: calc(100% - 24px);
   }
 
   .footer-inner {
