@@ -275,10 +275,35 @@ h4 {
   line-height: 1.42;
 }
 
-.hero-affiliation {
+.hero-about {
   max-width: 590px;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
   color: var(--ink-soft);
+}
+
+.hero-about p {
+  margin-bottom: 10px;
+}
+
+.hero-about strong {
+  color: var(--ink);
+}
+
+.upcoming-presentation {
+  max-width: 590px;
+  margin-bottom: 30px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  box-shadow: 0 12px 36px rgba(16, 36, 55, 0.07);
+}
+
+.upcoming-presentation p {
+  margin-bottom: 2px;
+}
+
+.upcoming-presentation .card-label {
+  margin-bottom: 8px;
 }
 
 .hero-actions {
@@ -347,12 +372,6 @@ h4 {
   color: var(--brand-dark);
 }
 
-.social-links svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
 .portrait-wrap {
   position: relative;
   z-index: 1;
@@ -361,52 +380,10 @@ h4 {
 }
 
 .portrait {
-  position: relative;
-  z-index: 1;
   width: 100%;
-  border-radius: 48% 48% 18px 18px;
+  border-radius: 4px;
   box-shadow: var(--shadow);
-  object-fit: cover;
-}
-
-.portrait-accent {
-  position: absolute;
-  z-index: 0;
-  right: -28px;
-  bottom: -28px;
-  width: 72%;
-  height: 60%;
-  border-radius: 18px;
-  background: var(--brand);
-}
-
-.portrait-note {
-  position: absolute;
-  z-index: 2;
-  right: -24px;
-  bottom: 34px;
-  min-width: 170px;
-  padding: 16px 19px;
-  border-radius: 12px;
-  background: var(--surface);
-  box-shadow: 0 12px 34px rgba(16, 36, 55, 0.18);
-}
-
-.portrait-note span,
-.portrait-note strong {
-  display: block;
-}
-
-.portrait-note span {
-  margin-bottom: 2px;
-  color: var(--ink-soft);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.portrait-note strong {
-  font-size: 0.95rem;
+  object-fit: contain;
 }
 
 .section {
@@ -486,18 +463,8 @@ h4 {
 }
 
 .research-card {
-  display: grid;
-  gap: 30px;
   padding: 40px 0;
   border-bottom: 1px solid rgba(16, 36, 55, 0.14);
-  grid-template-columns: 58px minmax(0, 1fr);
-}
-
-.research-index {
-  color: var(--accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.05rem;
-  font-style: italic;
 }
 
 .research-meta {
@@ -806,33 +773,6 @@ address {
 
   h1 {
     font-size: clamp(3.2rem, 17vw, 5.2rem);
-  }
-
-  .portrait-note {
-    right: -10px;
-    bottom: 20px;
-  }
-
-  .portrait-accent {
-    right: -16px;
-    bottom: -16px;
-  }
-
-  .presentation-card {
-    display: block;
-  }
-
-  .presentation-card p + p {
-    margin-top: 4px;
-  }
-
-  .research-card {
-    gap: 14px;
-    grid-template-columns: 1fr;
-  }
-
-  .research-index {
-    margin-bottom: 2px;
   }
 
   details > p {
