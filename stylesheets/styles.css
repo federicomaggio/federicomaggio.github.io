@@ -224,7 +224,7 @@ h4 {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: clamp(72px, 10vw, 140px) 0 clamp(90px, 12vw, 160px);
+  padding: clamp(32px, 5vw, 64px) 0 clamp(90px, 12vw, 160px);
 }
 
 .hero::before {
@@ -672,7 +672,7 @@ address {
   }
 
   .hero {
-    padding: 48px 0 52px;
+    padding: 24px 0 52px;
   }
 
   .portrait-wrap {
@@ -767,7 +767,7 @@ address {
   }
 
   .hero {
-    padding: 40px 0 44px;
+    padding: 20px 0 44px;
   }
 
   .hero::before {
