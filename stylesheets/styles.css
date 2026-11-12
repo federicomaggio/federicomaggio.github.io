@@ -672,7 +672,7 @@ address {
   }
 
   .hero {
-    padding-bottom: 52px;
+    padding: 48px 0 52px;
   }
 
   .portrait-wrap {
@@ -767,7 +767,7 @@ address {
   }
 
   .hero {
-    padding: 72px 0 44px;
+    padding: 40px 0 44px;
   }
 
   .hero::before {
