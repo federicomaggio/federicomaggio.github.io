@@ -27,7 +27,7 @@ document.addEventListener('keydown', (event) => {
 });
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth > 680) {
+  if (window.innerWidth > 760) {
     closeNavigation();
   }
 });

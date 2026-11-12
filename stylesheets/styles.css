@@ -190,6 +190,13 @@ h4 {
   color: var(--brand);
 }
 
+.primary-nav a[aria-current="page"] {
+  color: var(--brand-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
 .primary-nav .nav-cta {
   padding: 10px 17px;
   border: 1px solid var(--ink);
@@ -388,6 +395,10 @@ h4 {
 
 .section {
   padding: clamp(84px, 11vw, 144px) 0;
+}
+
+.inner-page .page-section {
+  padding-top: clamp(56px, 7vw, 88px);
 }
 
 .section-tint {
@@ -699,7 +710,7 @@ address {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 760px) {
   body {
     font-size: 16px;
   }
